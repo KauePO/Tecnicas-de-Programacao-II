@@ -1,0 +1,1 @@
+# EXEMPLO PRATICO A CERCA DO SRP (Single Reponsability Principle)
