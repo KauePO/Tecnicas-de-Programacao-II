@@ -18,6 +18,7 @@ public class App {
         if(validacaoISBN.validarISBN(livro)) {
             // Persistência
             repository.salvarLivro(livro);
+            repository.buscarPorISBN("1111111111111");
 
             // Relatório
             System.out.println(relatorio.gerarRelatorioLivro(livro));
